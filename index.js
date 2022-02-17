@@ -23,5 +23,5 @@ client.on("messageDelete", function(message){
 client.on("guildMemberAdd", member =>{
     console.log(member)
 })
-
-client.login("write your token here");
+const token = "write your token here"
+client.login(token);
